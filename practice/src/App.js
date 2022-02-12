@@ -10,7 +10,7 @@ function App() {
     const newUser = {
       name: username,
       age: age,
-      id: Math.random() * 100
+      id: Math.random().toString()
     }
 
     setUsersList([...usersList, newUser]);
